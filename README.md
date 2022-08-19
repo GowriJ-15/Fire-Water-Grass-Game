@@ -1,2 +1,2 @@
 # Fire-Water-Grass-Game  
-Visit:https://github.com/GowriJ-15/Fire-Water-Grass-Game.git
+Visit: https://gowrij-15.github.io/Fire-Water-Grass-Game/
