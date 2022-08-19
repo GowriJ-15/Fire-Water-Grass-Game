@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+header{
+    background-color: white;
+    font-size: 30px;
+}
+.game-rules
+{
+    text-align: left;
+    font-weight: bold;
+    color: black;
+
+}
+body
+{
+    background-color:mistyrose;
+}
+
+header > h1{
+    text-align: center;
+    color: blueviolet;
+    font-family: sans-serif;
+}
+
+.score-board
+{
+    margin: 20px auto;
+    border: 3px solid blueviolet;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: blueviolet;
+    font-size: 46px;
+    padding:auto;
+    position: relative;
+
+}
+
+.badge
+{
+    background: darkblue;
+    color: mistyrose;
+    padding: 2px 6px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+#computer-label
+{
+    position: absolute;
+    top:18px;
+    left:-25px;
+}
+#user-label
+{
+    position: absolute;
+    top:18px;
+    right:-25px;
+}
+
+.results
+{
+    font-size:  30px;
+    color:  darkblue;
+   font-weight: bold;
+   text-align: center;}
+
+   .choices
+   {
+    text-align: center;
+    margin:50px 0;
+   }
+
+   .choice{
+    border: 4px solid blueviolet;
+   
+    margin: 0 20px;
+    display:inline-block;
+    transition: all 0.3s ease;
+
+   }
+
+   .choice:hover
+   {
+    cursor: pointer;
+    background: blueviolet;
+   }
+
+   #act-msg
+   {
+    text-align: center;
+    color:  darkblue;
+    font-weight: bold;
+    font-size: 20px;
+
+   }

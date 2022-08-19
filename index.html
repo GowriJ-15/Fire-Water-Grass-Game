@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fire-Water-Grass</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>FIRE-WATER-GRASS</h1>
+            <div class="game-rules"><a href="rules.html">RULES</a></div>
+        </header>
+        <div class="score-board">
+        <div id="computer-label" class="badge">Computer</div>
+        <div id="user-label" class="badge">User</div>
+        <span id="computer-score">0</span>:<span id="user-score">0</span>
+        </div>
+        <div class="results">
+            <p>Water puts out fire!!You win!!</p>
+        </div>
+        <div class="choices">
+            <div id="f" class="choice">
+                <img src="fire.jpg" width="160" height="95">
+            </div>
+            <div id="w" class="choice">
+                <img src="water.jpg" width="160" height="95" >
+            </div>
+            <div id="g" class="choice">
+                <img src="grass.png" width="160" height="95">
+            </div>
+        </div>
+        <p id="act-msg">Make your move</p>
+        <script src="app.js" charset="utf-8"></script>
+    </body>
+</html>
